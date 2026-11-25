@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title id="title">pmxtools logo</title>
+  <defs>
+    <linearGradient id="titlebar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#515a64"/>
+      <stop offset="1" stop-color="#3e4650"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0.82" y2="1">
+      <stop offset="0" stop-color="#343c46"/>
+      <stop offset="1" stop-color="#2a3139"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="108" y="194" width="808" height="584" rx="45" fill="url(#body)" stroke="#111820" stroke-width="5"/>
+    <path d="M153 196H871C895 196 914 215 914 239V294H110V239C110 215 129 196 153 196Z" fill="url(#titlebar)"/>
+    <path d="M110 294H914" stroke="#1c2229" stroke-width="2"/>
+    <path d="M153 198H871" stroke="#737b84" stroke-opacity="0.7" stroke-width="2"/>
+    <path d="M112 237V738C112 760 129 776 151 776" fill="none" stroke="#7f8790" stroke-opacity="0.35" stroke-width="2"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <circle cx="163.5" cy="247.5" r="20.5" fill="#ff672d" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="219.5" cy="247.5" r="20.5" fill="#ffdb58" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="276.5" cy="247.5" r="20.5" fill="#72ce5d" stroke="#111111" stroke-width="1.5"/>
+  </g>
+  <path d="M176 333L203 357.5L176 382" fill="none" stroke="#111820" stroke-opacity="0.8" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 1)"/>
+  <path d="M176 333L203 357.5L176 382" fill="none" stroke="#f5f5f5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="237" y="373" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="56" font-weight="400" letter-spacing="1" fill="#f1f1f1" stroke="#111820" stroke-width="3" paint-order="stroke fill" filter="url(#softShadow)">
+    pmxtools
+  </text>
+  <!-- merged: proxmox.svg -->
+  <g transform="translate(600, 500) scale(0.4)">
+    <svg viewBox="0 34 512 444">
+      <path d="M137.9 34.1c-10.5 0-19.7 1.9-28.5 5.7-8.6 3.8-16.2 8.9-22.9 15.6l170 186.4L426.1 55.3c-6.7-6.7-14.3-11.8-23.4-15.6-8.3-3.8-18-5.7-28-5.7-10.5 0-20.5 2.2-29.4 6.2-9.2 4-16.7 10-23.7 17l-65.2 72.2-66-72.2c-6.7-7-14.3-12.9-23.7-17-8.3-4-18.3-6.1-28.8-6.1M256.4 270l-170 186.7c6.7 6.5 14.3 11.8 22.9 15.6 8.9 3.8 18.1 5.7 28 5.7 11 0 20.5-2.4 29.4-6.2 9.4-4.3 17.5-10 24.2-17l65.5-72.2 65.4 72.2c6.7 7 14.3 12.7 23.4 17 8.9 3.8 18.6 6.2 29.4 6.2 10 0 19.7-1.9 28-5.7 9.2-3.8 16.7-9.2 23.4-15.6z" style="fill-rule:evenodd;clip-rule:evenodd"/>
+      <path d="M56 90.1c-10.8.3-21.3 2.4-30.7 6.5-9.7 4-18 9.7-25.3 16.7L129.8 256 0 398.5c7.3 7.3 15.6 12.9 25.3 17.2 9.4 4.3 19.9 6.2 30.7 6.7 11.6-.5 22.4-2.4 32.3-7.3q15-6.9 25.8-18.6l128-140.5-127.9-140.3c-7.8-7.5-16.2-13.7-26.1-18.6-10-4.6-20.5-6.7-32.1-7m399.7 0c-11.6.3-21.8 2.4-31.8 7-10 4.8-18.6 11-26.1 18.6L270.4 256l127.4 140.6q11.25 11.7 26.1 18.6c10 4.8 20.2 6.7 31.8 7.3 11.6-.5 21.5-2.4 31-6.7 10.2-4.3 18-10 25.3-17.2L382.5 256 512 113.3c-7.3-7-15.1-12.7-25.3-16.7-9.4-4.1-19.4-6.2-31-6.5" style="fill-rule:evenodd;clip-rule:evenodd;fill:#e57000"/>
+    </svg>
+  </g>
+</svg>
